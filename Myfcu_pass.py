@@ -12,7 +12,7 @@ list1 = []
 url = "https://myfcu.fcu.edu.tw/main/infomyfculogin.aspx"
 
 
-driverPath =r'C:\Users\user\Downloads\chromedriver_win32 (4)\chromedriver.exe'
+driverPath =r'C:\Users\user\Downloads\chromedriver_win32 (4)\chromedriver.exe' #chromedriver的路徑位置
 chrome = webdriver.Chrome(driverPath)
 chrome.get(url)
 username = chrome.find_element_by_id('txtUserName')
